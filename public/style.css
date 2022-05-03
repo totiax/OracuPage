@@ -1,0 +1,113 @@
+body {
+  background-color: #d8d4b2;
+}
+
+.pantallaInicial {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-top: 20px;
+}
+.pantallaInicial form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.pantallaInicial .ir {
+  height: 57px;
+  width: 225px;
+  margin-top: 44px;
+}
+
+header {
+  display: flex;
+  height: 60px;
+  width: 100vw;
+  background-image: url(/img/fondo.jpg);
+  background-position: left;
+  color: blanchedalmond;
+  justify-content: center;
+  align-items: center;
+}
+
+.pantallaInicial .crearButton {
+  display: flex;
+  width: 100vw;
+  flex-direction: column;
+  height: 50vh;
+  align-items: center;
+  margin-top: 20px;
+}
+.pantallaPensando {
+  display: none;
+  height: 100vh;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+}
+.pantallaPensando img {
+  height: 469px;
+}
+.pantallaCartas img {
+  margin-top: -22px;
+  width: 100vw !important;
+  height: 264px;
+  padding: 23px;
+}
+.pantallaCartas {
+  display: none;
+  text-align: center;
+}
+.pantallaCartas .volver {
+  display: none;
+  position: absolute;
+  bottom: 10px;
+  right: 5px;
+}
+.pantallaCartas .Menu {
+  display: none;
+  position: absolute;
+  left: 239px;
+  bottom: 10px;
+}
+.pantallaCartas .carousel-indicators {
+  display: flex;
+  bottom: 74px;
+}
+.pantallaCartas .btnMatch {
+  position: absolute;
+  bottom: 10px;
+  left: 5px;
+}
+.Match {
+  display: none;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+}
+.Match img {
+  width: 80px;
+}
+.Match .player01 {
+  display: block;
+  height: 49vh;
+  width: 100vw;
+  text-align: center;
+}
+.Match .player02 {
+  display: block;
+  height: 49vh;
+  width: 100vw;
+  text-align: center;
+}
+.Match .cerrar {
+  position: absolute;
+  top: 2px;
+  right: 5px;
+  border-radius: 50%;
+  font-size: 20px;
+}
